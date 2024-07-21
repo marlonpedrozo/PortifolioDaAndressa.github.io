@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andressa L. Barbosa || Técnica de Enfermagem</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            padding-top: 56px;
+            background-color: #e0f7fa;
+            color: #00796b;
+        }
+        .navbar {
+            background-color: #00796b; /* Cor de fundo do menu */
+        }
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #ffffff !important; /* Cor do texto do menu */
+        }
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 6h16M4 12h16m-7 6h7' /></svg>"); /* ícone de alternância */
+        }
+        .jumbotron {
+            background-color: #fff;
+            padding: 2rem 1rem;
+            border-bottom: 2px solid #00796b;
+        }
+        .container section {
+            margin-bottom: 2rem;
+        }
+        h1 {
+            font-size: 2rem; /* Adaptável e menor que display-4 */
+            color: #004d40;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem; /* Padding-bottom aumentado */
+            font-weight: 300; /* Fonte mais suave */
+        }
+        h4 {
+            font-size: 1.25rem;
+        }
+        p, ul, address {
+            font-size: 0.9rem;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .profile-img {
+            border-radius: 50%;
+            width: 120px; /* Aumentado */
+            height: 120px; /* Aumentado */
+            object-fit: cover;
+            border: 3px solid #00796b;
+        }
+        .underline {
+            border-bottom: 2px solid #00796b;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .contact-section {
+            text-align: center;
+        }
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            font-size: 24px;
+            cursor: pointer;
+            z-index: 1000;
+            text-decoration: none; /* Remove underline */
+        }
+
+        .whatsapp-button:hover {
+            background-color: #1ebea5; /* Alterar cor ao passar o mouse */
+        }
+
+        /* Estilo responsivo para a foto em cima do h1 */
+        @media (max-width: 768px) {
+            .jumbotron .container {
+                text-align: center;
+            }
+            .jumbotron .container .d-flex {
+                flex-direction: column;
+            }
+            .profile-img {
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Técnica de Enfermagem</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experiencia">Experiência</a></li>
+                <li class="nav-item"><a class="nav-link" href="#formacao">Formação</a></li>
+                <li class="nav-item"><a class="nav-link" href="#competencias">Competências</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center flex-column">
+                <img src="foto andressa.jpg" alt="Foto de Andressa" class="profile-img mb-3">
+                <h1 class="display-4">Andressa Lorscheiter Barbosa</h1>
+                <p class="lead underline">Técnica de Enfermagem / Instrumentadora Cirúrgica</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Profissional dedicada e comprometida com a segurança do paciente, com experiência em instrumentação cirúrgica, atendimento pré-hospitalar e gestão de materiais cirúrgicos. Comunicação eficaz e trabalho em equipe são minhas principais habilidades.</p>
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiência</h2>
+            <ul>
+                <li>
+                    <h4>Centro de Material e Esterilização (CME)</h4>
+                    <p>Experiência de 3 anos - Responsável pelo recebimento, esterilização e cobrança de materiais cirúrgicos.</p>
+                </li>
+                <li>
+                    <h4>Órteses, Próteses e Materiais Especiais (OPME)</h4>
+                    <p>Experiência de 15 meses - Atuação no recebimento, esterilização e gestão de cobranças de OPME.</p>
+                </li>
+                <li>
+                    <h4>Bloco Cirúrgico</h4>
+                    <p>2 anos de experiência - Auxílio em cirurgias gerais e traumatologia, garantindo ambiente seguro e organizado.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="competencias">
+            <h2>Competências</h2>
+            <ul>
+                <li>Instrumentação Cirúrgica</li>
+                <li>Atendimento Pré-Hospitalar (APH)</li>
+                <li>Recebimento, esterilização e cobrança de materiais cirúrgicos</li>
+                <li>Cirurgias Gerais e Traumatologia</li>
+                <li>Trabalho em Equipe</li>
+                <li>Comunicação Eficaz</li>
+                <li>Comprometimento com a Segurança do Paciente</li>
+            </ul>
+        </section>
+
+        <section id="contato" class="contact-section">
+            <h2>Contato</h2>
+            <address>
+                Rua Guia Lopes, Rondônia - Novo Hamburgo<br>
+                <a href="tel:+5551997864856">(51) 99786-4856</a><br>
+                <a href="mailto:Andressa-lorscheiter@hotmail.com">andressa@example.com</a>
+            </address>
+        </section>
+    </div>
+
+    <button class="whatsapp-button" onclick="window.location.href='https://wa.me/5551997864856'"><i class="fab fa-whatsapp"></i></button>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
